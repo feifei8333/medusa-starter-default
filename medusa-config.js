@@ -85,4 +85,8 @@ module.exports = {
   projectConfig,
   plugins,
   modules,
-};
+  projectConfig: {
+    // ...
+    database_extra: { ssl: { rejectUnauthorized: false } },
+  },
+}
